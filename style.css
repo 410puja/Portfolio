@@ -1,20 +1,22 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+.hero-section {
+  background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+  height: 60vh;
 }
 
-.navbar-brand {
-  font-weight: bold;
+.navbar-brand i {
+  font-size: 1.5rem;
+  color: white;
 }
 
-.bg-dark {
-  background-color: #343a40 !important;
+.item img {
+  border-radius: 10px;
 }
 
-.container {
-  max-width: 900px;
+.card {
+  border: none;
+  transition: transform 0.3s ease;
 }
 
-.text-muted {
-  color: #6c757d !important;
+.card:hover {
+  transform: scale(1.05);
 }
