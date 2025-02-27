@@ -4,8 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Puja's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background-color: #333; /* Add contrast background */
+      padding: 5rem 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
@@ -28,15 +38,35 @@
   </nav>
 
   <!-- Hero Section -->
-  <div class="bg-dark text-white text-center py-5">
-    <div class="container">
+  <div class="hero-section text-white text-center">
+    <div class="container py-5">
       <h1>Welcome to My Portfolio</h1>
-      <p class="lead">PHP Developer focusing on efficient and secure applications.</p>
+      <p class="lead">PHP Developer with 2.5 years of experience in building secure and efficient applications.</p>
+      <a href="contact.html" class="btn btn-primary mt-3">Hire Me</a>
+    </div>
+  </div>
+
+  <!-- Carousel Section -->
+  <div class="container py-5">
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="assets/slide1.jpg" class="img-fluid" alt="Slide 1">
+      </div>
+      <div class="item">
+        <img src="assets/slide2.jpg" class="img-fluid" alt="Slide 2">
+      </div>
+      <div class="item">
+        <img src="assets/slide3.jpg" class="img-fluid" alt="Slide 3">
+      </div>
     </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
+
 
 
